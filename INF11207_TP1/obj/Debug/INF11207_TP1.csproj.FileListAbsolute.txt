@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.exe.config
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.exe
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.pdb
@@ -16,3 +17,12 @@ C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.e
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.pdb
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.exe.config
 C:\Users\Channou\source\repos\INF11207_TP1\INF11207_TP1\bin\Debug\Newtonsoft.Json.dll
+=======
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.exe.config
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.exe
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\bin\Debug\INF11207_TP1.pdb
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.csproj.AssemblyReference.cache
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.csproj.CoreCompileInputs.cache
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.exe
+C:\Users\laura\OneDrive\Desktop\projet poo\INF11207_TP1\INF11207_TP1\obj\Debug\INF11207_TP1.pdb
+>>>>>>> 1c175e1c814d37985b5ee4fcc850687efd062695
