@@ -1,38 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\laura\\OneDrive\\Desktop\\projet poo\\INF11207_TP1\\",
+  "WorkspaceRootPath": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\voisins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\voisins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\iclassifieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\iclassifieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\knnclassifieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\knnclassifieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\itrie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\itrie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\distance_manhattan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\distance_manhattan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\idistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\inf11207_tp1\\idistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\idistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\laura\\onedrive\\desktop\\projet poo\\inf11207_tp1\\inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 1c175e1c814d37985b5ee4fcc850687efd062695
-      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -50,50 +66,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITrie.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\ITrie.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\ITrie.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\ITrie.cs",
+              "RelativeToolTip": "INF11207_TP1\\ITrie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:26:32.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trie.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Trie.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Trie.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Trie.cs",
+              "RelativeToolTip": "INF11207_TP1\\Trie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:26:06.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Voisins.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Voisins.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Voisins.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Voisins.cs",
+              "RelativeToolTip": "INF11207_TP1\\Voisins.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:19:12.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KnnClassifieur.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\KnnClassifieur.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\KnnClassifieur.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\KnnClassifieur.cs",
+              "RelativeToolTip": "INF11207_TP1\\KnnClassifieur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:49:18.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClassifieur.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\IClassifieur.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\IClassifieur.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\IClassifieur.cs",
+              "RelativeToolTip": "INF11207_TP1\\IClassifieur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:48:41.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Distance_manhattan.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_manhattan.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Distance_manhattan.cs",
               "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_manhattan.cs",
               "RelativeToolTip": "INF11207_TP1\\Distance_manhattan.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T22:13:54.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Distance_euclidienne.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_euclidienne.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Distance_euclidienne.cs",
               "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_euclidienne.cs",
               "RelativeToolTip": "INF11207_TP1\\Distance_euclidienne.cs",
-              "ViewState": "AgIAAAoAAAAgMzMzMzMrwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAABgZmZmZmYkwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T21:47:50.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Grain_ble.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Grain_ble.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Grain_ble.cs",
               "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Grain_ble.cs",
               "RelativeToolTip": "INF11207_TP1\\Grain_ble.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T19:48:31.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "IDistance.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\IDistance.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\IDistance.cs",
@@ -106,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Variety.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Variety.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Variety.cs",
@@ -119,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Classes.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Classes.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Classes.cs",
@@ -132,20 +213,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\Desktop\\projet poo\\INF11207_TP1\\INF11207_TP1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Program.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Program.cs",
-              "ToolTip": "C:\\Users\\laura\\OneDrive\\Desktop\\projet poo\\INF11207_TP1\\INF11207_TP1\\Program.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Program.cs",
               "RelativeToolTip": "INF11207_TP1\\Program.cs",
-              "ViewState": "AgIAAAYAAACAZmZmZmYWwBcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAMjMzMzMbwBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T18:38:34.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "seeds_dataset_training.csv",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv",
               "RelativeDocumentMoniker": "INF11207_TP1\\seeds_dataset_training.csv",
@@ -153,12 +234,11 @@
               "RelativeToolTip": "INF11207_TP1\\seeds_dataset_training.csv",
               "ViewState": "AgIAAHUAAAAAZmZmZmYkwAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-02-19T12:17:53.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:17:53.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "seeds_dataset_test.csv",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv",
               "RelativeDocumentMoniker": "INF11207_TP1\\seeds_dataset_test.csv",
@@ -166,8 +246,7 @@
               "RelativeToolTip": "INF11207_TP1\\seeds_dataset_test.csv",
               "ViewState": "AgIAADoAAAAAMjMzMzMLwBEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-02-19T12:17:38.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:17:38.841Z"
             }
           ]
         }
