@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes.cs" />
+    <Compile Include="Distance_euclidienne.cs" />
+    <Compile Include="Distance_manhattan.cs" />
+    <Compile Include="Grain_ble.cs" />
+    <Compile Include="IDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Variety.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.4</Version>
+    </PackageReference>
+  </ItemGroup>
 </Project>

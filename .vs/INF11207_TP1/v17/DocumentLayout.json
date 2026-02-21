@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\distance_manhattan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\distance_manhattan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\distance_euclidienne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\grain_ble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\idistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\idistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|c:\\users\\channou\\source\\repos\\inf11207_tp1\\inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9970C30F-60AE-4F25-9507-F6D3F5C82B38}|INF11207_TP1\\INF11207_TP1.csproj|solutionrelative:inf11207_tp1\\variety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|solutionrelative:INF11207_TP1\\seeds_dataset_training.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|solutionrelative:INF11207_TP1\\seeds_dataset_test.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Distance_manhattan.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_manhattan.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Distance_manhattan.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_manhattan.cs",
+              "RelativeToolTip": "INF11207_TP1\\Distance_manhattan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T22:13:54.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Distance_euclidienne.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_euclidienne.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Distance_euclidienne.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Distance_euclidienne.cs",
+              "RelativeToolTip": "INF11207_TP1\\Distance_euclidienne.cs",
+              "ViewState": "AgIAAAoAAAAgMzMzMzMrwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:47:50.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grain_ble.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Grain_ble.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Grain_ble.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Grain_ble.cs",
+              "RelativeToolTip": "INF11207_TP1\\Grain_ble.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:48:31.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDistance.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\IDistance.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\IDistance.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\IDistance.cs",
+              "RelativeToolTip": "INF11207_TP1\\IDistance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:44:24.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Variety.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Variety.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Variety.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Variety.cs",
+              "RelativeToolTip": "INF11207_TP1\\Variety.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T15:30:46.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Classes.cs",
+              "RelativeDocumentMoniker": "INF11207_TP1\\Classes.cs",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Classes.cs",
+              "RelativeToolTip": "INF11207_TP1\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T15:17:49.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Program.cs",
               "RelativeDocumentMoniker": "INF11207_TP1\\Program.cs",
               "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\Program.cs",
               "RelativeToolTip": "INF11207_TP1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAACAZmZmZmYWwBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T17:23:45.696Z",
+              "WhenOpened": "2026-02-19T18:38:34.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "seeds_dataset_training.csv",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv",
+              "RelativeDocumentMoniker": "INF11207_TP1\\seeds_dataset_training.csv",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv",
+              "RelativeToolTip": "INF11207_TP1\\seeds_dataset_training.csv",
+              "ViewState": "AgIAAHUAAAAAZmZmZmYkwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-02-19T12:17:53.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "seeds_dataset_test.csv",
+              "DocumentMoniker": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv",
+              "RelativeDocumentMoniker": "INF11207_TP1\\seeds_dataset_test.csv",
+              "ToolTip": "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv",
+              "RelativeToolTip": "INF11207_TP1\\seeds_dataset_test.csv",
+              "ViewState": "AgIAADoAAAAAMjMzMzMLwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-02-19T12:17:38.841Z",
               "EditorCaption": ""
             }
           ]
