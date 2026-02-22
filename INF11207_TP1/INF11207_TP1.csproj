@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Ferme.cs" />
+    <Compile Include="Fermier.cs" />
+    <Compile Include="Grain.cs" />
+    <Compile Include="IProduit.cs" />
+    <Compile Include="LotsGrains.cs" />
+    <Compile Include="Personne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
