@@ -8,8 +8,8 @@ namespace INF11207_TP1
 {
     internal class Classes
     {
-        Variety[] classe_reelle;
-        Variety[] classe_predite;
+       public List<Variety> classe_reelle=new List<Variety>();
+       public  List<Variety> classe_predite=new List<Variety>();
     }
 
 }

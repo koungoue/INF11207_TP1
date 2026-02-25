@@ -8,7 +8,7 @@ namespace INF11207_TP1
 {
     internal class Distance_manhattan:IDistance
     {
-        public double Calcul_distance(Grain_ble graintrain, Grain_ble graintest)
+        public  double Calcul_distance(Grain_ble graintrain, Grain_ble graintest)
         {
             double somme = 0;
 

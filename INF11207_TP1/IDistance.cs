@@ -8,6 +8,6 @@ namespace INF11207_TP1
 {
     internal interface IDistance
     {
-        double Calcul_distance(Grain_ble train,Grain_ble test);
+       double Calcul_distance(Grain_ble train,Grain_ble test);
     }
 }

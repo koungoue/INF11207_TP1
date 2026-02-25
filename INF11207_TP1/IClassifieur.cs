@@ -8,5 +8,6 @@ namespace INF11207_TP1
 {
     internal interface IClassifieur
     {
+        Variety Predire(Grain_ble grain);
     }
 }

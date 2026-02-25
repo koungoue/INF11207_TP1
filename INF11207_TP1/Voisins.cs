@@ -10,5 +10,11 @@ namespace INF11207_TP1
     {
         public Double distance {  get; set; }
         public  Variety variety { get; set; }
+
+        public Voisins(double distance, Variety variety)
+        {
+            this.distance = distance;
+            this.variety = variety;
+        }
     }
 }

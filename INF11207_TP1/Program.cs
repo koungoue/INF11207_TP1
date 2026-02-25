@@ -21,7 +21,7 @@ namespace INF11207_TP1
             string traincsv = "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv";
 
             List<Grain_ble>test=new List<Grain_ble>();
-            List<Grain_ble>train=new List<Grain_ble>();
+            List<Grain_ble> train= new List<Grain_ble>();
 
             File.Exists(testcsv);
             File.Exists(traincsv);
@@ -80,6 +80,16 @@ namespace INF11207_TP1
 
             }
 
+            //Classes classes = new Classes();
+            KnnClassifieur knn = new KnnClassifieur(10, new Distance_euclidienne(),train,new Trie());
+
+            for (int i = 0; i < 5; i++)
+            {
+                Variety prediction=knn.Predire(test[i]);
+                Console.WriteLine(i + ": " + prediction );
+               
+
+            }
 
  
 
