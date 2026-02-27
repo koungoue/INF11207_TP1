@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 ﻿################################################################################
 # Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
 ################################################################################
 
 /GestionFerme-TP1/.vs
 /GestionFerme-TP1/obj
+=======
+.vs/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.pdb
+*.suo
+>>>>>>> 41f5206e30e8ca780701dfe925f224cbc96e3fd2
