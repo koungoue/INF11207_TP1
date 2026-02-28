@@ -163,34 +163,85 @@ namespace INF11207_TP1
                 AnsiConsole.Write(table);
 
 
+                Classes classes = new Classes();
+                Console.WriteLine("Entrez une valeur de K");
+                int K = int.Parse(Console.ReadLine());
+                while (K <= 0 || K > train.Count)
+                {
+                    Console.WriteLine("Valeur de k invalide. Entrez une autre valeur");
+                    k = int.Parse(Console.ReadLine());
+
+                    //Matrice pour les 3 Classes (Canadian,kama,et Rosa
+                    int[,] matrix = new int[3, 3];
+                    int compteur = 0;
+                    for (int i = 0; i < test.Count; i++)
+                    {
+                        Variety vrai = test[i].variety;
+                        Variety prediction = knn.Predire(test[i]);
+                        matrix[(int)vrai, (int)prediction]++;
+                        compteur++;
+                        Console.WriteLine(i + ":" + prediction);
+
+                    }
+                    //Exactitude
+                    double exactitude = (double)compteur / test.Count;
+                    Console.WriteLine("Exactitude=" + exactitude);
+
+                    //Matrice de Confusion
+                    for (int i = 0; i < 3; i++)
+                    {
+                        for (int j = 0; j < 3; j++)
+                        {
+                            Console.Write(matrix[i, j] + " ");
+                            Console.WriteLine();
+
+                            //Etat global
+                            EtatGlobal etat = new EtatGlobal()
+                            {
+                                K = k,
+                                IDistance = "Euclienne",// ou "Manhattan"
+                                DateTime = DateTime.Now,
+                                TrainCount = train.Count,
+                                TestCount = test.Count,
+                                Exactitude = exactitude,
+                                MatriceConfusion = matrix,
+
+                            };
+                            //serialisation
+
+                            string json = JsonConvert.SerializeObject(etat, Formatting.Indented);
+
+                            //sauvegarde
+                            File.WriteAllText("etat_global.json", json);
+
+
+
+                            //Classes classes = new Classes();
 
 
 
 
 
-                //Classes classes = new Classes();
 
 
 
 
 
+                            //for (int i = 0; i < 5; i++)
+                            //{
+                            //    Variety prediction = knn.Predire(test[i]);
+                            //    Console.WriteLine(i + ": " + prediction);
+                            //    //classes.classe_predite.Add(prediction);
+                            //    //classes.classe_reelle.Add(test[i].variety);
+
+                            //}
 
 
 
 
-
-                //for (int i = 0; i < 5; i++)
-                //{
-                //    Variety prediction = knn.Predire(test[i]);
-                //    Console.WriteLine(i + ": " + prediction);
-                //    //classes.classe_predite.Add(prediction);
-                //    //classes.classe_reelle.Add(test[i].variety);
-
-                //}
-
-
-
-
+                        }
+                    }
+                }
             }
         }
     }

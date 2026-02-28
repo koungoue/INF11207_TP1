@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="EtatGlobal.cs" />
     <Compile Include="Ferme.cs" />
     <Compile Include="Fermier.cs" />
     <Compile Include="Grain.cs" />

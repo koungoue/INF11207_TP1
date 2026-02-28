@@ -11,7 +11,7 @@ namespace INF11207_TP1
     {
         public EtatGlobal() { }
         public int K {  get; set; }
-        public string Distance {  get; set; }
+        public string IDistance {  get; set; }
         public DateTime DateTime { get; set; }
         public int TrainCount {  get; set; }
         public int TestCount { get; set; }
