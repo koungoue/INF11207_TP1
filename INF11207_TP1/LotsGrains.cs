@@ -13,7 +13,7 @@ namespace INF11207_TP1
         public DateTime DateFabrication { get; set; }
         public List<Grain> Grains { get; set; } = new List<Grain>();
 
-        public LotsGrains(int IdLots, DateTime DteFabrication)
+        public LotsGrains(int IdLots, DateTime Date)
         {
             this.IdLots = IdLots;
             this.DateFabrication = DateFabrication;

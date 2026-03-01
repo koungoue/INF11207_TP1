@@ -195,12 +195,12 @@ namespace INF11207_TP1
                             Console.Write(matrix[i, j] + " ");
                             Console.WriteLine();
 
-                            //Etat global
+                            //creation d un objet qui regroupe tous les resultats
                             EtatGlobal etat = new EtatGlobal()
                             {
                                 K = k,
                                 IDistance = "Euclienne",// ou "Manhattan"
-                                DateTime = DateTime.Now,
+                                Date = DateTime.Now,
                                 TrainCount = train.Count,
                                 TestCount = test.Count,
                                 Exactitude = exactitude,
@@ -210,10 +210,8 @@ namespace INF11207_TP1
                             //serialisation
 
                             string json = JsonConvert.SerializeObject(etat, Formatting.Indented);
-
-                            //sauvegarde
                             File.WriteAllText("etat_global.json", json);
-
+                             Console.WriteLine(json);
 
 
                             //Classes classes = new Classes();

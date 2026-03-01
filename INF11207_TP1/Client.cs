@@ -15,9 +15,11 @@ namespace INF11207_TP1
         { this.Adresse = adresse; }
         public void Commander(LotsGrains produit,int Quantite)
         {
-            if (produit == null) {
-                Console.WriteLine("produit non disponible"); }
-                    return;
+            if (produit == null)
+            {
+                Console.WriteLine("produit non disponible");
+                return;
+            }
             if (Quantite <= 0) 
             {Console.WriteLine( "Quantite non applicable");
                 return;
