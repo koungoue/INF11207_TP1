@@ -11,20 +11,17 @@ namespace INF11207_TP1
     public class Client:Personne
     {
         public string Adresse {  get; set; }
-        public Client(string nom, string adresse,string contact,string email):base(nom,email,contact)
-        { this.Adresse = adresse; }
-        public void Commander(LotsGrains produit,int Quantite)
+        public Client(string nom, string adresse,string contact,string email) : base(nom, email, contact)
         {
-            if (produit == null) {
-                Console.WriteLine("produit non disponible"); }
-                    return;
-            if (Quantite <= 0) 
-            {Console.WriteLine( "Quantite non applicable");
-                return;
-            }
-            Console.WriteLine($"Client{Nom},Contact{Contact},Email{Email}),Adresse{Adresse}" +
-                $" a commande {Quantite} unites du lot {produit.IdLots}");
+            this.Adresse = adresse;
+        }
 
+        public override void Afficher()
+        {
+            Console.WriteLine($"Nom:{Nom}");
+            Console.WriteLine($"Email:{Email}");
+            Console.WriteLine($"Contact:{Contact}");
+            Console.WriteLine($"Adresse:{ Adresse}");
         }
     }
 }

@@ -8,6 +8,6 @@ namespace INF11207_TP1
 {
     public interface IProduit
     {
-        int CalculerQteGrains();
+        Double CalculerPrix();
     }
 }

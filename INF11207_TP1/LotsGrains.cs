@@ -9,23 +9,22 @@ namespace INF11207_TP1
     public class LotsGrains : IProduit
 
     {
-        public int IdLots { get; set; }
-        public DateTime DateFabrication { get; set; }
-        public List<Grain> Grains { get; set; } = new List<Grain>();
+        public Double poids { get; set; }
+        public string type { get; set; }
+        
 
-        public LotsGrains(int IdLots, DateTime DteFabrication)
+        public LotsGrains(Double poids, string type)
         {
-            this.IdLots = IdLots;
-            this.DateFabrication = DateFabrication;
+            this.poids=poids;
+            this.type=type;
         }
-        public int CalculerQteGrains()
-        { return Grains.Count; }
-        public void AjouterGrain(Grain grain)
+        public Double CalculerPrix()
         {
-            Grains.Add(grain);
+
+            return poids * 15; ;
         }
-        public void RetirerGrain(Grain grain)
-        { Grains.Remove(grain); }
+        
+       
 
     }
 }

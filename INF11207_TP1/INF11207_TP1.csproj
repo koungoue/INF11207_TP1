@@ -78,7 +78,6 @@
     <Compile Include="EtatGlobal.cs" />
     <Compile Include="Ferme.cs" />
     <Compile Include="Fermier.cs" />
-    <Compile Include="Grain.cs" />
     <Compile Include="IProduit.cs" />
     <Compile Include="LotsGrains.cs" />
     <Compile Include="Personne.cs" />
@@ -100,13 +99,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-  <None Include="seeds_dataset_training.csv">
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-  </None>
-
-  <None Include="seeds_dataset_test.csv">
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-  </None>
-</ItemGroup>
+    <None Include="seeds_dataset_training.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="seeds_dataset_test.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,12 +19,8 @@ namespace INF11207_TP1
             this.Email = Email;
             this.Contact = Contact;
         }
-        public  void Afficher()
-        { Console.WriteLine($"Nom:{Nom}");
-            Console.WriteLine($"Email:{Email}");
-            Console.WriteLine($"Contact:{Contact}");
-
-        }
+        public abstract void Afficher();
+       
     }
 }
 
