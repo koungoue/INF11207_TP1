@@ -82,7 +82,6 @@
     <Compile Include="IProduit.cs" />
     <Compile Include="LotsGrains.cs" />
     <Compile Include="Personne.cs" />
-    <Compile Include="Classes.cs" />
     <Compile Include="Distance_euclidienne.cs" />
     <Compile Include="Distance_manhattan.cs" />
     <Compile Include="Grain_ble.cs" />
@@ -100,5 +99,14 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+  <None Include="seeds_dataset_training.csv">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+
+  <None Include="seeds_dataset_test.csv">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

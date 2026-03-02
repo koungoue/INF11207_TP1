@@ -5,12 +5,6 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INF11207_TP1", "INF11207_TP1\INF11207_TP1.csproj", "{9970C30F-60AE-4F25-9507-F6D3F5C82B38}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}"
-	ProjectSection(SolutionItems) = preProject
-		INF11207_TP1\seeds_dataset_test.csv = INF11207_TP1\seeds_dataset_test.csv
-		INF11207_TP1\seeds_dataset_training.csv = INF11207_TP1\seeds_dataset_training.csv
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,119 +1,94 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
+using Newtonsoft.Json;
+using Spectre.Console;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using Spectre.Console;
+using System.IO.Ports;
 using System.Linq;
-
-using System.Security.Cryptography.X509Certificates;
-
 using System.Runtime.Remoting.Messaging;
-
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace INF11207_TP1
 {
     internal class Program
     {
         static void Main(string[] args)
+        {
+            //csv
+            string testcsv = "seeds_dataset_test.csv";
+            string traincsv = "seeds_dataset_training.csv";
 
-        {//Creation Ferme
-            Ferme ferme = new Ferme("Soleil", "50 RUE DANSE LEVIS");
-            ferme.Afficher();
+            List<Grain_ble> test = new List<Grain_ble>();
+            List<Grain_ble> train = new List<Grain_ble>();
 
-            //Creation Fermier
-            Fermier fermier = new Fermier(001, "David", "418-524-7521", "fermier@gmail.com");
-            //creation des grains
-            Grain g1 = new Grain("Rosa", 12, 5, 6, 4, 6, 9);
-            Grain g2 = new Grain("Canadian", 12, 9, 5, 8, 6, 3);
+            File.Exists(testcsv);
+            File.Exists(traincsv);
+            var isHeader = true;
 
-            //creer un lot
-            LotsGrains lot1 = new LotsGrains(1, DateTime.Now);
-            lot1.AjouterGrain(g2);
-            lot1.AjouterGrain(g1);
-            //Ajouter un lot dans la ferme 
-            ferme.AjouterLot(lot1);
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                Delimiter = ";",
+                MissingFieldFound = null
+            };
 
-            Console.WriteLine($"Quantite de grains = {lot1.CalculerQteGrains()}");
-
+            using (var lecturetest = new StreamReader(testcsv))
+            using (var csv = new CsvReader(lecturetest, config))
             {
 
 
-                string testcsv = "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv";
-                string traincsv = "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv";
-
-                List<Grain_ble> test = new List<Grain_ble>();
-                List<Grain_ble> train = new List<Grain_ble>();
-
-                File.Exists(testcsv);
-                File.Exists(traincsv);
-
-
-
-                var isHeader = true;
-
-                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                while (csv.Read())
                 {
-                    Delimiter = ";",
-                    MissingFieldFound = null
-                };
-
-                using (var lecturetest = new StreamReader(testcsv))
-                using (var csv = new CsvReader(lecturetest, config))
-                {
-
-
-                    while (csv.Read())
+                    if (isHeader)
                     {
-                        if (isHeader)
-                        {
-                            csv.ReadHeader();
-                            isHeader = false;
-                        }
-                        else
-                        {
-                            var recordtest = csv.GetRecord<Grain_ble>();
-                            test.Add(recordtest);
-                        }
-
-
+                        csv.ReadHeader();
+                        isHeader = false;
                     }
+                    else
+                    {
+                        var recordtest = csv.GetRecord<Grain_ble>();
+                        test.Add(recordtest);
+                    }
+
+
                 }
+            }
 
-
-                using (var lecturetrain = new StreamReader(traincsv))
-                using (var csv = new CsvReader(lecturetrain, config))
+            using (var lecturetrain = new StreamReader(traincsv))
+            using (var csv = new CsvReader(lecturetrain, config))
+            {
+                while (csv.Read())
                 {
-                    while (csv.Read())
+                    if (isHeader)
                     {
-                        if (isHeader)
-                        {
-                            csv.ReadHeader();
-                            isHeader = false;
-                        }
-                        else
-                        {
-                            var recordtrain = csv.GetRecord<Grain_ble>();
-                            train.Add(recordtrain);
-                        }
-
-
+                        csv.ReadHeader();
+                        isHeader = false;
                     }
+                    else
+                    {
+                        var recordtrain = csv.GetRecord<Grain_ble>();
+                        train.Add(recordtrain);
+                    }
+
 
                 }
 
-                IDistance Distance;
+            }
 
-                AnsiConsole.Write(
-                    new Panel("[bold yellow]CLASSIFIEUR K-NN[/]")
+            IDistance Distance;
+            
+            AnsiConsole.Write(
+                    new Panel("[bold yellow]INTERFACE CLASSIFIEUR K-NN[/]")
                     .Border(BoxBorder.Double)
                     .BorderColor(Color.Green));
 
-                int k = AnsiConsole.Ask<int>("Entrer la valeur de k:");
+
+
+            int k = AnsiConsole.Ask<int>("Entrer la valeur de k:");
 
                 while (k <= 0)
                 {
@@ -122,7 +97,6 @@ namespace INF11207_TP1
                     k = AnsiConsole.Ask<int>("Entrer une autre valeur de k:");
 
                 }
-
 
                 string choix_distance = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
@@ -139,9 +113,9 @@ namespace INF11207_TP1
                     Distance = new Distance_manhattan();
                 }
 
-                KnnClassifieur knn = new KnnClassifieur(k, Distance, train, new Trie());
+            KnnClassifieur knn = new KnnClassifieur(k, Distance, train, new Trie());
 
-                AnsiConsole.Progress()
+            AnsiConsole.Progress()
                     .Start(ctx =>
                     {
                         var task = ctx.AddTask("Classification en cours...", maxValue: test.Count);
@@ -154,95 +128,91 @@ namespace INF11207_TP1
 
                     });
 
-                var table = new Table()
-                    .AddColumn("K")
-                    .AddColumn("Distance")
-                    .AddColumn("Exactitude")
-                    .AddColumn("Matrice de confusion")
-                    .AddRow($"[green]{k}[/]", $"[blue]{choix_distance}[/]", "[green]exactitude[/]", "[blue]matrice[/]");
-                AnsiConsole.Write(table);
+               
 
-
-                Classes classes = new Classes();
-                Console.WriteLine("Entrez une valeur de K");
-                int K = int.Parse(Console.ReadLine());
-                while (K <= 0 || K > train.Count)
+            int[,] matrix = new int[3, 3];
+            int compteur = 0;
+            foreach (var grain in test)
+            {
+                Variety reelle = grain.variety;
+                Variety prediction = knn.Predire(grain);
+                if (reelle == prediction)
                 {
-                    Console.WriteLine("Valeur de k invalide. Entrez une autre valeur");
-                    k = int.Parse(Console.ReadLine());
+                    compteur++;
+                }
+                matrix[(int)reelle, (int)prediction]++;
 
-                    //Matrice pour les 3 Classes (Canadian,kama,et Rosa
-                    int[,] matrix = new int[3, 3];
-                    int compteur = 0;
-                    for (int i = 0; i < test.Count; i++)
+            }
+            double exactitude = Math.Round(((Double)compteur / test.Count) * 100,2);
+
+            string[] Classes = Enum.GetNames(typeof(Variety));
+
+           
+
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    //Console.Write(matrix[i, j] + " ");
+                    //Console.WriteLine();
+
+                    //Etat global
+                    EtatGlobal etat = new EtatGlobal()
                     {
-                        Variety vrai = test[i].variety;
-                        Variety prediction = knn.Predire(test[i]);
-                        matrix[(int)vrai, (int)prediction]++;
-                        compteur++;
-                        Console.WriteLine(i + ":" + prediction);
+                        K = k,
+                        distance = choix_distance,
+                        DateTime = DateTime.Now,
+                        TrainCount = train.Count,
+                        TestCount = test.Count,
+                        Exactitude = exactitude,
+                        MatriceConfusion =matrix,
 
-                    }
-                    //Exactitude
-                    double exactitude = (double)compteur / test.Count;
-                    Console.WriteLine("Exactitude=" + exactitude);
+                    };
+                    //serialisation
 
-                    //Matrice de Confusion
-                    for (int i = 0; i < 3; i++)
-                    {
-                        for (int j = 0; j < 3; j++)
-                        {
-                            Console.Write(matrix[i, j] + " ");
-                            Console.WriteLine();
+                    string json = JsonConvert.SerializeObject(etat, Formatting.Indented);
 
-                            //Etat global
-                            EtatGlobal etat = new EtatGlobal()
-                            {
-                                K = k,
-                                IDistance = "Euclienne",// ou "Manhattan"
-                                DateTime = DateTime.Now,
-                                TrainCount = train.Count,
-                                TestCount = test.Count,
-                                Exactitude = exactitude,
-                                MatriceConfusion = matrix,
+                    //sauvegarde
+                    File.WriteAllText("etat_global.json", json);
 
-                            };
-                            //serialisation
-
-                            string json = JsonConvert.SerializeObject(etat, Formatting.Indented);
-
-                            //sauvegarde
-                            File.WriteAllText("etat_global.json", json);
-
-
-
-                            //Classes classes = new Classes();
-
-
-
-
-
-
-
-
-
-
-                            //for (int i = 0; i < 5; i++)
-                            //{
-                            //    Variety prediction = knn.Predire(test[i]);
-                            //    Console.WriteLine(i + ": " + prediction);
-                            //    //classes.classe_predite.Add(prediction);
-                            //    //classes.classe_reelle.Add(test[i].variety);
-
-                            //}
-
-
-
-
-                        }
-                    }
                 }
             }
+            var table = new Table()
+                   .AddColumn("K")
+                   .AddColumn("Distance")
+                   .AddColumn("Exactitude")
+                   .AddRow($"[green]{k}[/]", $"[blue]{choix_distance}[/]", $"[green]{exactitude}%[/]");
+            AnsiConsole.Write(table);
+
+            AnsiConsole.MarkupLine($"[green]Matrice de confusion[/]");
+            var matrice_confusion = new Table();
+            matrice_confusion.AddColumn("reelle/predite");
+            matrice_confusion.AddColumn("kama");
+            matrice_confusion.AddColumn("rosa");
+            matrice_confusion.AddColumn("canadian");
+
+            for (int i = 0; i < 3; i++)
+            {
+
+                matrice_confusion.AddRow(Classes[i], matrix[i, 0].ToString(), matrix[i, 1].ToString(), matrix[i, 2].ToString());
+
+            }
+            AnsiConsole.Write(matrice_confusion);
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+            
         }
     }
-}

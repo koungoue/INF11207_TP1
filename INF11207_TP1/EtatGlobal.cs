@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spectre.Console;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace INF11207_TP1
     {
         public EtatGlobal() { }
         public int K {  get; set; }
-        public string IDistance {  get; set; }
+        public string distance {  get; set; }
         public DateTime DateTime { get; set; }
         public int TrainCount {  get; set; }
         public int TestCount { get; set; }
