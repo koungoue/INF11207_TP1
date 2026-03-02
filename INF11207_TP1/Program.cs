@@ -43,8 +43,8 @@ namespace INF11207_TP1
             {
 
 
-                string testcsv = "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_test.csv";
-                string traincsv = "C:\\Users\\Channou\\source\\repos\\INF11207_TP1\\INF11207_TP1\\seeds_dataset_training.csv";
+                string testcsv = "seeds_dataset_test.csv";
+                string traincsv = "seeds_dataset_training.csv";
 
                 List<Grain_ble> test = new List<Grain_ble>();
                 List<Grain_ble> train = new List<Grain_ble>();
@@ -178,14 +178,15 @@ namespace INF11207_TP1
                     {
                         Variety vrai = test[i].variety;
                         Variety prediction = knn.Predire(test[i]);
-                        matrix[(int)vrai, (int)prediction]++;
+                        if (prediction == vrai)
+                            matrix[(int)vrai, (int)prediction]++;
                         compteur++;
                         Console.WriteLine(i + ":" + prediction);
 
                     }
                     //Exactitude
                     double exactitude = (double)compteur / test.Count;
-                    Console.WriteLine("Exactitude=" + exactitude);
+                    Console.WriteLine($"Exactitude={exactitude:P2}" );
 
                     //Matrice de Confusion
                     for (int i = 0; i < 3; i++)
